@@ -1,8 +1,27 @@
-# React + Vite
+# This is a react task for Router task which is done using react in vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--> The data are given in App.jsx and imported to Cards.jsx
 
-Currently, two official plugins are available:
+--> The cards are done in cards.jsx and Navbar contents are done in Navbar.jsx and imported to App.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--> The cards & Navbar are styled in App.css
+
+--> The Navbar content is routed using BrowserRouter
+
+--> Navbar contains heading as per the data and filter function is used to sort the data as per heading
+
+--> Navbar Contains: 1.Brand Title
+
+2.All
+
+3.Career
+
+4.CyberSecurity
+
+5.DataScience
+
+6.FullStack
+
+--> The data are sorted as per the headings
+
+--> If the correct name is not given it will route to PageNotFound
