@@ -10,7 +10,9 @@
 
 --> Navbar contains heading as per the data and filter function is used to sort the data as per heading
 
---> Navbar Contains: 1.Brand Title
+--> Navbar Contains: 
+
+1.Brand Title
 
 2.All
 
